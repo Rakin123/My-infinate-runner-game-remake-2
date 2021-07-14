@@ -245,7 +245,7 @@ function spawnObstacles(){
    
     //assign scale and lifetime to the obstacle           
     obstacle.scale = 0.9;
-    obstacle.lifetime = 384;
+    obstacle.lifetime = 305;
    
    //add each obstacle to the group
     obstaclesGroup.add(obstacle);
@@ -271,7 +271,7 @@ function spawnClouds() {
 
     
      //assign lifetime to the variable
-    cloud.lifetime = 340;
+    cloud.lifetime = 300;
     
     //adjust the depth
     cloud.depth = trex.depth;
