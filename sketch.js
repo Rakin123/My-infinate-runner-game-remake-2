@@ -137,7 +137,7 @@ function draw() {
     }
     
     //add gravity
-    trex.velocityY = trex.velocityY + 0.8
+    trex.velocityY = trex.velocityY + 0.67
     invisibleGround.velocityX = (4 + 3* score/100)
     trex.velocityX = (4 + 3* score/100)
     camera.position.x = trex.x + width/3.5
@@ -245,7 +245,7 @@ function spawnObstacles(){
    
     //assign scale and lifetime to the obstacle           
     obstacle.scale = 0.9;
-    obstacle.lifetime = 1000;
+    obstacle.lifetime = 384;
    
    //add each obstacle to the group
     obstaclesGroup.add(obstacle);
@@ -271,7 +271,7 @@ function spawnClouds() {
 
     
      //assign lifetime to the variable
-    cloud.lifetime = 500;
+    cloud.lifetime = 340;
     
     //adjust the depth
     cloud.depth = trex.depth;
